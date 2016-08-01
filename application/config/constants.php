@@ -37,5 +37,43 @@ define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 
+/*
+|--------------------------------------------------------------------------
+| PDDIKTI Constant
+|--------------------------------------------------------------------------
+*/
+define('FEEDER_SATUAN_PENDIDIKAN',	'satuan_pendidikan');
+define('FEEDER_SMS',				'sms');
+define('FEEDER_JENJANG_PENDIDIKAN',	'jenjang_pendidikan');
+define('FEEDER_MAHASISWA',			'mahasiswa');
+define('FEEDER_MAHASISWA_PT',		'mahasiswa_pt');
+define('FEEDER_KULIAH_MAHASISWA',	'kuliah_mahasiswa');
+define('FEEDER_KURIKULUM',			'kurikulum');
+define('FEEDER_MATA_KULIAH',		'mata_kuliah');
+define('FEEDER_MK_KURIKULUM',		'mata_kuliah_kurikulum');
+
+
+/*
+|--------------------------------------------------------------------------
+| Status Sinkronisasi
+|--------------------------------------------------------------------------
+*/
+define('SYNC_STATUS_PROSES',	'proses');
+define('SYNC_STATUS_DONE',		'done');
+
+
+/*
+|--------------------------------------------------------------------------
+| Mode Sinkronisasi
+|--------------------------------------------------------------------------
+*/
+define('MODE_SYNC',						'sync');
+define('MODE_AMBIL_DATA_FEEDER',		'ambil_data_feeder');
+define('MODE_AMBIL_DATA_FEEDER_2',		'ambil_data_feeder_2');
+define('MODE_AMBIL_DATA_FEEDER_3',		'ambil_data_feeder_3');
+define('MODE_AMBIL_DATA_LANGITAN',		'ambil_data_langitan');
+define('MODE_AMBIL_DATA_LANGITAN_2',	'ambil_data_langitan_2');
+define('MODE_AMBIL_DATA_LANGITAN_3',	'ambil_data_langitan_3');
+
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
